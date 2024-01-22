@@ -1,3 +1,11 @@
+//This is the Journal Program
+// This program conatians additional formating for csv and 
+//  a name identification processing which is not yet quite fully functinal
+// Credits also goes to : Michael Hadley Youtube Videos, Microsoft Learn C# tutorials
+// https://github.com/vwolfley/cse210-23w-23/tree/5320f6479f3052870602e0b6471090ce1546fd31
+// V Wolfley github pages: 
+// Study mates in stake and Teams Group meeting.
+
 using System;
 
 using System;
