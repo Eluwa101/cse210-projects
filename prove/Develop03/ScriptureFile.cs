@@ -1,7 +1,7 @@
 // ScriptureLoader.cs
 using System.IO;
 
-class ScriptureLoader
+class ScriptureFile
 {
     // the scripture file reader class
     public static Scripture LoadScriptureFile(string filePath)

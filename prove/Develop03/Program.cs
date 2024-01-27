@@ -66,7 +66,7 @@ class Program
 
         try
         {
-            var scripture = ScriptureLoader.LoadScriptureFile(filePath);
+            var scripture = ScriptureFile.LoadScriptureFile(filePath);
 
             if (scripture != null)
             {
