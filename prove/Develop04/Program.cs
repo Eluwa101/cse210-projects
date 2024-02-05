@@ -1,5 +1,8 @@
 // Main program.cs, the main program file of the Activity program
-// 
+// Acknowledgements:
+// Microsoft learn C#, internet resources
+// codecademy. codinghub ioc. youtube videos. Local coding group.
+
 
 using System;
 
