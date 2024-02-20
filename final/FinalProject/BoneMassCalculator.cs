@@ -36,6 +36,25 @@ public class BoneMassCalculator : HealthCalculatorBase
         }
 
         DisplayResults(boneMass);
-        DisplayAdvice();
+        DisplayAdvice(boneMass);
+    }
+
+    protected virtual void DisplayAdvice(double boneMass)
+    {
+        // Specific advice for Bone Mass Calculator result
+        Console.WriteLine("Health Advice for Bone Mass:");
+
+        if (boneMass < 2.5)
+        {
+            Console.WriteLine("Low Bone Mass: Consider consulting with a health professional for advice on bone health.");
+        }
+        else if (boneMass >= 2.5 && boneMass < 3.5)
+        {
+            Console.WriteLine("Normal Bone Mass: Maintain a healthy lifestyle to support bone health.");
+        }
+        else
+        {
+            Console.WriteLine("High Bone Mass: Ensure you are not overestimating your bone mass; consult with a health professional if needed.");
+        }
     }
 }

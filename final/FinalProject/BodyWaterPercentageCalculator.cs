@@ -34,7 +34,24 @@ public class BodyWaterPercentageCalculator : HealthCalculatorBase
         }
 
         DisplayResults(bodyWaterPercentage);
-        DisplayAdvice();
+        DisplayAdvice(bodyWaterPercentage);
+    }
 
+    protected virtual void DisplayAdvice(double bodyWaterPercentage)
+    {
+        Console.WriteLine("Health Advice for Body Water Percentage:");
+
+        if (bodyWaterPercentage < 50)
+        {
+            Console.WriteLine("Dehydration Risk: Ensure you are staying adequately hydrated by drinking enough water.");
+        }
+        else if (bodyWaterPercentage >= 50 && bodyWaterPercentage < 60)
+        {
+            Console.WriteLine("Normal Body Water Percentage: Maintain your current hydration level by drinking water regularly.");
+        }
+        else
+        {
+            Console.WriteLine("Hydration Level Above Normal: Ensure you are not overhydrating; consult with a health professional if needed.");
+        }
     }
 }

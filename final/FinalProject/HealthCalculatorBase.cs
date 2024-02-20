@@ -18,7 +18,7 @@ public abstract class HealthCalculatorBase : IHealthCalculator
         Console.WriteLine($"Your {Category} result is: {result:F2}");
     }
 
-    protected void DisplayAdvice()
+    protected virtual void DisplayAdvice()
     {
         Console.WriteLine("Health Advice: Consider consulting with a health professional for personalized advice.");
     }
