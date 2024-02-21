@@ -3,7 +3,7 @@ public class UserInputHandler
 {
     public static double GetHeight()
     {
-        Console.Write("Enter your height (m or cm): ");
+        Console.Write("Enter your height (cm): ");
         return Convert.ToDouble(Console.ReadLine());
     }
 
